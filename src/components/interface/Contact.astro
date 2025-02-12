@@ -1,7 +1,129 @@
 ---
+import {
+    ChevronRight,
+    MailCheck,
+    MapPinCheck,
+    Phone,
+    PhoneCall,
+    Tractor,
+} from "lucide-react";
+import Form from "../form";
+
 // Component logic here
 ---
 
-<div>
-    <!-- Contact component content here -->
-</div>
+<section class="py-32">
+    <div class="container mx-auto px-2">
+        <div class="max-w-screen-sm">
+            <h2 class="mb-3 text-xl font-medium text-muted-foreground">
+                Contáctenos
+            </h2>
+            <p class="text-balance text-4xl font-medium md:text-5xl">
+                Solicita tu Cotización o Más Información
+            </p>
+        </div>
+        <div class="mt-10 grid gap-4 md:mt-20 md:grid-cols-2 md:gap-8">
+            <div
+                class="relative flex flex-col justify-between gap-6 rounded-lg border group overflow-hidden"
+            >
+                <img
+                    src="/Sin título-6.jpeg"
+                    alt="placeholder"
+                    class="h-full w-full rounded-lg object-cover object-center"
+                />
+                <div
+                    class="absolute bottom-0 left-0 right-0 top-0 translate-y-10 rounded-lg bg-gradient-to-t from-primary to-transparent transition-transform duration-300 group-hover:translate-y-0"
+                >
+                </div>
+                <div
+                    class="absolute top-0 flex h-full w-full flex-col justify-between p-7"
+                >
+                    <span
+                        class="ml-auto flex w-fit items-center gap-1 rounded-full bg-blue-900 px-2 py-2 text-sm font-semibold text-background"
+                    >
+                        <Phone className="h-auto w-6" />
+                    </span>
+                    <div class="flex flex-col gap-5 text-background">
+                        <ul class="space-y-3.5">
+                            <li class="flex items-center gap-2">
+                                <MapPinCheck
+                                    className="h-auto w-6 text-blue-300"
+                                />
+                                <a href="tel:+569 1234 5678">
+                                    <strong>Ubicación</strong>: Calle 123,
+                                    Region, Chile
+                                </a>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <PhoneCall
+                                    className="h-auto w-6 text-blue-300"
+                                />
+                                <a href="tel:+569 1234 5678">
+                                    <strong>Teléfono</strong>: +569 1234 5678
+                                </a>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <MailCheck
+                                    className="h-auto w-6 text-blue-300"
+                                />
+                                <a href="tel:+569 1234 5678">
+                                    <strong>Email</strong>: unmail@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex flex-col justify-between gap-6 rounded-lg border bg-zinc-100 p-6"
+            >
+                <div>
+                    <h3 class="mb-4 text-xl font-medium md:text-2xl">
+                        Envíanos un Mensaje
+                    </h3>
+                    <p class="text-muted-foreground">
+                        Si tienes alguna duda o consulta, no dudes en
+                        contactarnos. Estamos para ayudarte.
+                    </p>
+                </div>
+                <Form client:only />
+            </div>
+        </div>
+        <div class="mt-7">
+            <div class="relative">
+                <div class="overflow-hidden">
+                    <div class="flex -ml-4">
+                        <div class="min-w-0 shrink-0 grow-0 basis-full pl-4">
+                            <div
+                                class="relative flex h-full flex-col overflow-hidden rounded-t-lg md:max-h-[496px] md:rounded-lg"
+                            >
+                                <img
+                                    src="/map-3.png"
+                                    alt="placeholder"
+                                    class="h-full w-full rounded-t-lg object-cover md:rounded-lg"
+                                />
+                                <div
+                                    class="bottom-8 left-8 flex flex-col justify-between gap-6 rounded-b-lg border-x border-b bg-blue-900 text-white shadow-2xl p-6 md:absolute md:max-w-96 md:rounded-lg md:border"
+                                >
+                                    <div>
+                                        <h4
+                                            class="mb-4 text-xl font-medium md:text-2xl"
+                                        >
+                                            Region, Chile
+                                        </h4>
+                                        <p class="text-zinc-300">
+                                            Calle 123, Region, Chile
+                                        </p>
+                                    </div>
+                                    <a href="#" class="hover:underline"
+                                        >Ver en Google Maps</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
