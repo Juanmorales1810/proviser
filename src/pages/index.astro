@@ -1,20 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Description from "../components/interface/Description.astro";
-import Cta from "../components/interface/Cta.astro";
 import Service from "../components/interface/Service.astro";
 import Contact from "../components/interface/Contact.astro";
-import Header from "../components/interface/Header.astro";
-import Footer from "../components/interface/Footer.astro";
 import Providers from "../components/interface/Providers.astro";
 import Hero from "../components/interface/Hero.astro";
+import WhyUs from "@/components/interface/WhyUs.astro";
+import Testimonial from "@/components/interface/Testimonial.astro";
 ---
 
 <Layout title="Home">
     <Hero />
-    <Description />
+    <WhyUs />
     <Service />
-    <Cta />
+    <Description />
+    <Testimonial />
     <Contact />
     <Providers />
 </Layout>
