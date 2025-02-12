@@ -1,0 +1,66 @@
+---
+import { Sparkle } from "lucide-react";
+---
+
+<section class="py-32">
+    <div class="container mx-auto px-2">
+        <div
+            class="relative grid border-2 border-dashed border-zinc-300 md:grid-cols-2"
+        >
+            <div
+                class="border-dashed border-zinc-300 px-6 py-12 md:border-r-2 md:px-12 md:py-16"
+            >
+                <p class="mb-6 text-center font-medium md:text-xl">
+                    “Proviser Chile nos ha permitido optimizar nuestras entregas
+                    con rapidez y
+                    <strong class="ml-1 font-bold">
+                        productos de calidad
+                    </strong>”
+                </p>
+                <div
+                    class="flex flex-col items-center justify-center gap-4 md:flex-row"
+                >
+                    <span
+                        class="relative flex shrink-0 overflow-hidden size-14 rounded-full border"
+                        ><img
+                            class="aspect-square h-full w-full"
+                            src="/avatar-1.webp"
+                        />
+                    </span>
+                    <p class="text-center font-medium md:text-left">
+                        Cliente de Minería
+                    </p>
+                </div>
+            </div><div class="px-6 py-12 text-center md:px-12 md:py-16">
+                <p class="mb-6 text-center font-medium md:text-xl">
+                    Excelente servicio y atención personalizada. Los recomiendo.
+                </p>
+                <div
+                    class="flex flex-col items-center justify-center gap-4 md:flex-row"
+                >
+                    <span
+                        class="relative flex shrink-0 overflow-hidden size-14 rounded-full border"
+                        ><img
+                            class="aspect-square h-full w-full"
+                            src="/avatar-2.webp"
+                        /></span
+                    ><p class="text-center font-medium md:text-left">
+                        Empresa Constructora.
+                    </p>
+                </div>
+            </div>
+            <Sparkle
+                className=" absolute -left-[9px] -top-[9px] size-4 fill-blue-900 stroke-blue-900"
+            />
+            <Sparkle
+                className=" absolute -right-2 -top-2 size-4 fill-blue-900 stroke-blue-900"
+            />
+            <Sparkle
+                className=" absolute -bottom-2 -right-2 size-4 fill-blue-900 stroke-blue-900"
+            />
+            <Sparkle
+                className=" absolute -bottom-2 -left-2 size-4 fill-blue-900 stroke-blue-900"
+            />
+        </div>
+    </div>
+</section>
