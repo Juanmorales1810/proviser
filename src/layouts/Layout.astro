@@ -13,7 +13,11 @@ import "@/styles/global.css";
         <meta name="generator" content={Astro.generator} />
         <title>Astro Basics</title>
     </head>
-    <body>
+    <body class="relative bg-zinc-100">
+        <div
+            class="absolute h-full -z-10 w-full bg-[radial-gradient(#60a5fa_1px,transparent_1px)] [background-size:28px_28px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_50%,transparent_100%)] opacity-60"
+        >
+        </div>
         <Header />
         <slot />
         <Footer />
@@ -25,6 +29,5 @@ import "@/styles/global.css";
     body {
         margin: 0;
         width: 100%;
-        height: 100%;
     }
 </style>
