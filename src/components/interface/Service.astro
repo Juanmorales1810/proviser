@@ -1,117 +1,172 @@
 ---
-// Component logic here
+import { Check, ChevronRight } from "lucide-react";
 ---
 
 <section class="py-32">
     <div class="container mx-auto px-2">
-        <div
-            class="mb-24 flex flex-col items-center justify-between gap-6 lg:flex-row"
-        >
-            <div
-                class="w-full text-center text-3xl font-medium lg:w-1/2 lg:text-left lg:text-5xl"
-            >
-                <span class="text-muted-foreground">Built</span> with the latest
-                technology stack
-            </div><div
-                class="w-full text-center text-lg font-medium lg:w-1/2 lg:text-left lg:text-xl"
-            >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae fuga error voluptates ut sint.
+        <div class="grid gap-4 md:grid-cols-2 md:gap-16">
+            <h2 class="mb-4 text-4xl font-medium md:mb-0">
+                Nuestros Servicios y Productos
+            </h2>
+            <p class="text-lg text-zinc-700 font-medium">
+                Ofrecemos soluciones de abastecimiento industrial a empresas de
+                distintos sectores, desde la minería hasta la construcción.
+            </p>
+        </div>
+        <div class="mt-20 grid gap-4 md:grid-cols-3">
+            <div class="rounded-lg border-2 border-zinc-300 bg-white">
+                <div class="relative p-1">
+                    <img
+                        src="/Sin título-8.jpeg"
+                        alt="placeholder"
+                        class="max-h-96 w-full rounded-t-lg object-cover md:max-h-64"
+                    />
+                    <div
+                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground absolute left-5 top-5 bg-primary-foreground"
+                    >
+                        Example
+                    </div>
+                </div>
+                <div>
+                    <div class="mb-3 px-6 pt-6">
+                        <h3 class="font-medium">
+                            Ferretería y Herramientas Industriales
+                        </h3>
+                        <p class="text-zinc-700 font-medium">
+                            Ofrecemos una amplia gama de productos de ferretería
+                            y herramientas industriales.
+                        </p>
+                    </div>
+                    <div class="h-px border-t-2 border-zinc-300 border-dashed">
+                    </div>
+                    <ul class="text-zinc-700 font-medium">
+                        <li class="flex items-start gap-2 px-6 py-3">
+                            <Check className="text-blue-900 h-auto w-6" />
+                            Insumos para minería, construcción y agricultura.
+                        </li>
+                        <div
+                            class="h-px border-t-2 border-zinc-300 border-dashed"
+                        >
+                        </div>
+                        <li class="flex items-start gap-2 px-6 py-3">
+                            <Check className="text-blue-900 h-auto w-6" />
+                            Herramientas eléctricas y manuales.
+                        </li>
+                        <div
+                            class="h-px border-t-2 border-zinc-300 border-dashed"
+                        >
+                        </div>
+                        <li class="flex items-start gap-2 px-6 py-3">
+                            <Check className="text-blue-900 h-auto w-6" />
+                            Accesorios industriales y repuestos.
+                        </li>
+                    </ul>
+                    <div class="h-px border-t-2 border-zinc-300 border-dashed">
+                    </div>
+                    <a
+                        href="#"
+                        class="my-4 flex justify-end items-center gap-2 px-6 font-medium"
+                    >
+                        Ver Más Productos
+                        <ChevronRight
+                            className="text-blue-900 h-auto w-4 mt-0.5"
+                        />
+                    </a>
+                </div>
+            </div><div class="rounded-lg border-2 border-zinc-300 bg-white">
+                <div class="relative p-1">
+                    <img
+                        src="/Sin título-1.jpeg"
+                        alt="placeholder"
+                        class="max-h-96 w-full rounded-t-lg object-cover md:max-h-64"
+                    /><div
+                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground absolute left-5 top-5 bg-primary-foreground"
+                    >
+                        Example
+                    </div>
+                </div><div>
+                    <div class="mb-3 px-6 pt-6">
+                        <h3 class="font-medium">Cajas de Muestra Minera</h3>
+                        <p class="text-zinc-700 font-medium">
+                            Cajas de muestra minera para la exploración y
+                            análisis de minerales.
+                        </p>
+                    </div>
+                    <div class="h-px border-t-2 border-zinc-300 border-dashed">
+                    </div>
+                    <ul class="text-zinc-700 font-medium">
+                        <li class="flex items-start gap-2 px-6 py-3">
+                            <Check className="text-blue-900 h-auto w-6" />
+                            Fabricación de cajas de muestra para minería.
+                        </li>
+                        <div
+                            class="h-px border-t-2 border-zinc-300 border-dashed"
+                        >
+                        </div>
+                        <li class="flex items-start gap-2 px-6 py-3">
+                            <Check className="text-blue-900 h-auto w-6" />
+                            Materiales de alta resistencia para transporte seguro
+                        </li>
+                    </ul>
+                    <div class="h-px border-t-2 border-zinc-300 border-dashed">
+                    </div>
+                    <a
+                        href="#"
+                        class="my-4 flex justify-end items-center pt-12 gap-2 px-6 font-medium"
+                    >
+                        Read more
+                        <ChevronRight
+                            className="text-blue-900 h-auto w-4 mt-0.5"
+                        />
+                    </a>
+                </div>
             </div>
-        </div><ul
-            class="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
-        >
-            <li>
-                <div
-                    class="rounded-lg border bg-card text-card-foreground shadow-sm p-6"
-                >
+            <div class="rounded-lg border-2 border-zinc-300 bg-white">
+                <div class="relative p-1">
                     <img
-                        src="/images/block/block-1.svg"
-                        alt="Outreach"
-                        class="w-14"
-                    /><h3 class="mb-1 mt-4 text-lg font-medium">Outreach</h3><p
-                        class="text-sm text-muted-foreground"
+                        src="/Sin título-7.jpeg"
+                        alt="placeholder"
+                        class="max-h-96 w-full rounded-t-lg object-cover md:max-h-64"
+                    /><div
+                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground absolute left-5 top-5 bg-primary-foreground"
                     >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Quisquam, corporis!
-                    </p>
-                </div>
-            </li><li>
-                <div
-                    class="rounded-lg border bg-card text-card-foreground shadow-sm p-6"
-                >
-                    <img
-                        src="/images/block/block-2.svg"
-                        alt="Typeform"
-                        class="w-14"
-                    /><h3 class="mb-1 mt-4 text-lg font-medium">Typeform</h3><p
-                        class="text-sm text-muted-foreground"
+                        Example
+                    </div>
+                </div><div>
+                    <div class="mb-3 px-6 pt-6">
+                        <h3 class="font-medium">Logística y Despacho Rápido</h3>
+                        <p class="text-zinc-700 font-medium">
+                            Despachos garantizados en la Región de Coquimbo.
+                        </p>
+                    </div><div
+                        class="h-px border-t-2 border-zinc-300 border-dashed"
                     >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Quisquam, corporis!
-                    </p>
+                    </div><ul class="text-zinc-700 font-medium">
+                        <li class="flex items-start gap-2 px-6 py-3">
+                            <Check className="text-blue-900 h-auto w-6" />
+                            Envíos asegurados en la Región de Coquimbo y Santiago.
+                        </li>
+                        <div
+                            class="h-px border-t-2 border-zinc-300 border-dashed"
+                        >
+                        </div>
+                        <li class="flex items-start gap-2 px-6 py-3">
+                            <Check className="text-blue-900 h-auto w-6" />
+                            Entregas express a empresas mineras y constructoras.
+                        </li>
+                    </ul>
+                    <div class="h-px border-t-2 border-zinc-300 border-dashed">
+                    </div>
+                    <a
+                        href="#"
+                        class="my-4 flex w-full justify-end items-center pt-12 gap-2 px-6 font-medium"
+                        >Read more
+                        <ChevronRight
+                            className="text-blue-900 h-auto w-4 mt-0.5"
+                        />
+                    </a>
                 </div>
-            </li><li>
-                <div
-                    class="rounded-lg border bg-card text-card-foreground shadow-sm p-6"
-                >
-                    <img
-                        src="/images/block/block-3.svg"
-                        alt="Slack"
-                        class="w-14"
-                    /><h3 class="mb-1 mt-4 text-lg font-medium">Slack</h3><p
-                        class="text-sm text-muted-foreground"
-                    >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Quisquam, corporis!
-                    </p>
-                </div>
-            </li><li>
-                <div
-                    class="rounded-lg border bg-card text-card-foreground shadow-sm p-6"
-                >
-                    <img
-                        src="/images/block/block-4.svg"
-                        alt="Mailchimp"
-                        class="w-14"
-                    /><h3 class="mb-1 mt-4 text-lg font-medium">Mailchimp</h3><p
-                        class="text-sm text-muted-foreground"
-                    >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Quisquam, corporis!
-                    </p>
-                </div>
-            </li><li>
-                <div
-                    class="rounded-lg border bg-card text-card-foreground shadow-sm p-6"
-                >
-                    <img
-                        src="/images/block/block-5.svg"
-                        alt="Mixmax"
-                        class="w-14"
-                    /><h3 class="mb-1 mt-4 text-lg font-medium">Mixmax</h3><p
-                        class="text-sm text-muted-foreground"
-                    >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Quisquam, corporis!
-                    </p>
-                </div>
-            </li><li>
-                <div
-                    class="rounded-lg border bg-card text-card-foreground shadow-sm p-6"
-                >
-                    <img
-                        src="/images/block/block-6.svg"
-                        alt="Webhooks"
-                        class="w-14"
-                    /><h3 class="mb-1 mt-4 text-lg font-medium">Webhooks</h3><p
-                        class="text-sm text-muted-foreground"
-                    >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Quisquam, corporis!
-                    </p>
-                </div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 </section>
