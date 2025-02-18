@@ -1,0 +1,88 @@
+---
+import RichResults from "@/components/interface/RichResults.astro";
+
+interface Preload {
+    as: string;
+    href: string;
+    type: string;
+    rel?: "preload" | "prefetch";
+    crossorigin?: string;
+}
+
+interface Props {
+    title: string;
+    description: string;
+    preload?: Array<Preload>;
+    canonical?: string;
+    image?: string;
+}
+
+const {
+    title,
+    description,
+    preload,
+    canonical,
+    image = "https://www.proviserchile.cl/metadata.jpeg",
+} = Astro.props as Props;
+---
+
+<title>{title}</title>
+
+<meta charset="UTF-8" />
+<meta name="description" content={description} />
+
+{
+    preload?.map(({ href, as, type, rel = "preload", crossorigin }) => (
+        <link {rel} {href} {as} {type} {crossorigin} />
+    ))
+}
+
+<link rel="canonical" href={canonical} />
+<meta name="viewport" content="width=device-width" />
+<meta name="theme-color" content="#0f172a" />
+
+<meta
+    name="keywords"
+    content="Restaurante de mar y tierra en Coquimbo, comer mariscos frescos en La Serena, mejor restaurante con vista a la bahía en Coquimbo, ceviche fresco en La Serena y Coquimbo, restaurante con carnes y mariscos en Coquimbo, comer pescado fresco en Coquimbo, menú de mariscos en La Serena, cena con vista al mar en Coquimbo, pescados y mariscos en la región de Coquimbo, gastronomía costera en La Serena, mejor pisco sour en Coquimbo, platos de mariscos en La Serena, comer ceviche en la región de Coquimbo, pescado y carne en restaurante de Coquimbo, machas a la parmesana en La Serena, restaurante especializado en reineta y congrio en Coquimbo, cena romántica con mariscos en La Serena, cocina chilena en Coquimbo, comer locos en Coquimbo y La Serena, tragos y cócteles con vista a la bahía en Coquimbo, cena con mariscos y vinos en la región de Coquimbo, menú de paila marina en Coquimbo, gastronomía costera en Coquimbo, cena con vista al mar en Coquimbo, pescados a la plancha en La Serena, mejor restaurante de mariscos en Coquimbo, carnes premium y pescados frescos en Coquimbo, experiencia gastronómica con pescados y carnes en La Serena, cena especial con platos de mar y tierra en Coquimbo, carta de vinos en Coquimbo, cena con pisco sour en La Serena, platos gourmet de mar y tierra en Coquimbo, mariscos frescos y ceviche en Coquimbo, alta calidad gastronómica en Coquimbo, especialidad en comida del mar en La Serena, pescados frescos y carnes en Coquimbo, terraza y comida costera en La Serena, buen restaurante de mariscos en Coquimbo, tragos y ceviche en La Serena, pescados y mariscos frescos en Coquimbo, chupe de jaiba en Coquimbo, cena con maridaje en Coquimbo, mariscos frescos en La Serena, gastronomía marina en Coquimbo, platos tradicionales de mar y tierra en La Serena, carta de tragos premium en Coquimbo, cena de pescados y carnes en Coquimbo, pisco sour y ceviche en La Serena, mejor restaurante de cocina chilena en Coquimbo, pescados frescos y cocina de autor en Coquimbo"
+/>
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={new URL(image, Astro.url)} />
+
+<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={Astro.url} />
+<meta property="og:site_name" content="El Rinconcito" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_ES" />
+
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+
+<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+<link rel="apple-touch-icon" href="/favicon.png" />
+
+<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+<meta name="msapplication-config" content="/browserconfig.xml" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B8HX1KZP5F"
+></script>
+<script>
+    //@ts-ignore
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        //@ts-ignore
+        dataLayer.push(arguments);
+    }
+    //@ts-ignore
+    gtag("js", new Date());
+    //@ts-ignore
+    gtag("config", "G-B8HX1KZP5F");
+</script>
+
+<!-- <script is:inline src="/registerSW.js"></script> -->
+<!-- <link rel="manifest" href="/manifest.webmanifest" /> -->
+<RichResults />
