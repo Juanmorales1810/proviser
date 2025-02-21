@@ -2,7 +2,9 @@
 // Component logic here
 ---
 
-<section class="relative overflow-hidden bg-blue-950 pt-12 font-sans md:pt-20">
+<section
+    class="relative h-dvh overflow-hidden bg-blue-950 pt-12 font-sans md:pt-20"
+>
     <video
         class="absolute right-1/2 bottom-1/2 min-w-full min-h-full max-w-none w-auto h-auto translate-x-1/2 translate-y-1/2 z-0 brightness-90 blur-sm md:blur-none md:h-[600px] object-cover [mask-image:radial-gradient(ellipse_100%_95%_at_50%_50%,#000_1%,transparent_60%)]"
         autoplay=""
@@ -11,10 +13,8 @@
         loop=""
         poster="/img/landing/videoplayback.jpg"
         src="/11887094-hd_1920_1080_25fps.mp4"></video>
-    <div class="relative z-10 container mx-auto px-2">
-        <div
-            class="mb-24 h-[calc(100vh-288px)] flex flex-col items-center gap-8 md:h-[calc(100vh-580px)] lg:h-[calc(100vh-748px)]"
-        >
+    <div class="relative h-full flex flex-col z-10 container mx-auto px-2">
+        <div class="mb-24 flex flex-col items-center gap-8">
             <div>
                 <h1
                     class="mb-5 mt-16 text-3xl max-w-5xl text-center font-bold text-balance text-white md:text-5xl"
@@ -30,7 +30,9 @@
                 </p>
             </div>
         </div>
-        <div class="relative mx-auto aspect-[2.488709677_/_1] max-w-[89rem]">
+        <div
+            class="relative w-full flex-1 mx-auto aspect-[2.488709677_/_1] max-w-[89rem]"
+        >
             <div
                 class="absolute bottom-0 right-0 z-10 w-[27%] rounded-t-xl overflow-hidden"
             >
