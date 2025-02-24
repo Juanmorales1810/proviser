@@ -1,5 +1,5 @@
 ---
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 
 // Component logic here
 ---
@@ -19,6 +19,7 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
                     </p>
                     <div class="flex items-center gap-3">
                         <a
+                            href="tel:+56956176563"
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-5 [&_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
                         >
                             Atención al cliente
@@ -35,6 +36,8 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
                             >
                         </a>
                         <a
+                            target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=56956176563&text&type=phone_number&app_absent=0"
                             class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-5 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"
                         >
                             WhatsApp
@@ -56,54 +59,43 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-2 gap-8 border-t pt-20 lg:grid-cols-5">
+            <div class="grid grid-cols-2 gap-8 border-t pt-20 lg:grid-cols-4">
                 <div>
-                    <h3 class="mb-4 font-bold">Product</h3><ul
+                    <h3 class="mb-4 font-bold">Sectores</h3><ul
                         class="space-y-4 text-muted-foreground"
                     >
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Features</a>
+                            <a href="/sectores/mineria">Minería</a>
                         </li>
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Tasks</a>
+                            <a href="/sectores/construccion">Construcción</a>
                         </li>
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Calendar</a>
-                        </li>
-                        <li class="font-medium hover:text-primary">
-                            <a href="#">Conferencing</a>
-                        </li>
-                        <li class="font-medium hover:text-primary">
-                            <a href="#">Invoicing</a>
-                        </li>
-                        <li class="font-medium hover:text-primary">
-                            <a href="#">Security</a>
+                            <a href="/sectores/agricultura">Agricultura</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="mb-4 font-bold">Resources</h3>
+                    <h3 class="mb-4 font-bold">Contacto</h3>
 
                     <ul class="space-y-4 text-muted-foreground">
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Blog</a>
+                            <a href="tel:+56956176563">+56 9 5617 6563</a>
                         </li>
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Pricing</a>
+                            <a href="contacto@proviserchile.cl"
+                                >contacto@proviserchile.cl</a
+                            >
                         </li>
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Roadmap</a>
-                        </li>
-                        <li class="font-medium hover:text-primary">
-                            <a href="#">Changelog</a>
-                        </li>
-                        <li class="font-medium hover:text-primary">
-                            <a href="#">Resources</a>
+                            <a href="#">
+                                Alberto Arenas 3057, La Serena. Chile</a
+                            >
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="mb-4 font-bold">Case Studies</h3>
+                    <h3 class="mb-4 font-bold">Blog</h3>
                     <ul class="space-y-4 text-muted-foreground">
                         <li class="font-medium hover:text-primary">
                             <a href="#">Shadcn</a>
@@ -117,32 +109,21 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
                     </ul>
                 </div>
                 <div>
-                    <h3 class="mb-4 font-bold">Integrations</h3>
+                    <h3 class="mb-4 font-bold">Proviser</h3>
                     <ul class="space-y-4 text-muted-foreground">
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Hubspot</a>
+                            <a href="/#Sectores"> Sectores </a>
                         </li>
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Slack</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="mb-4 font-bold">Company</h3>
-                    <ul class="space-y-4 text-muted-foreground">
-                        <li class="font-medium hover:text-primary">
-                            <a href="#">About </a>
-                        </li>
-                        <li class="font-medium hover:text-primary">
-                            <a href="#">Company</a>
+                            <a href="/#Servicios"> Servicios y productos </a>
                         </li>
 
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Support</a>
+                            <a href="/#Sobre-nosotros"> Sobre nosotros </a>
                         </li>
 
                         <li class="font-medium hover:text-primary">
-                            <a href="#">Book a demo</a>
+                            <a href="#"> Productos </a>
                         </li>
                     </ul>
                 </div>
