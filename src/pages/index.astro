@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Service from "../components/interface/Service.astro";
 import Contact from "../components/interface/Contact.astro";
-import Providers from "../components/interface/Providers.astro";
+import Providers from "@/components/interface/Providers";
 import Hero from "../components/interface/Hero.astro";
 import WhyUs from "@/components/interface/WhyUs.astro";
 import Testimonial from "@/components/interface/Testimonial.astro";
@@ -19,5 +19,5 @@ import Sectores from "@/components/interface/Sectores.astro";
     <WhyUs />
     <Testimonial />
     <Contact />
-    <Providers />
+    <Providers client:only />
 </Layout>
