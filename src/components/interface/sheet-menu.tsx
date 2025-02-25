@@ -43,7 +43,7 @@ export function SheetMenu() {
                             <a
                                 className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold"
                                 onClick={() => setOpen(false)}
-                                href="/#Hero"
+                                href="/"
                             >
                                 Inicio
                             </a>
