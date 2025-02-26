@@ -107,6 +107,15 @@ export function SheetMenu() {
                                 Contacto
                             </a>
                         </li>
+                        <li>
+                            <a
+                                className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold"
+                                onClick={() => setOpen(false)}
+                                href="/#Blog"
+                            >
+                                Blog
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </SheetContent>
