@@ -10,11 +10,7 @@ import { SheetMenu } from "./sheet-menu";
             <div class="flex-1 md:flex md:items-center md:gap-12">
                 <a class="block text-white" href="/">
                     <span class="sr-only">Home</span>
-                    <img
-                        src="/logo.png"
-                        alt="Proviser Logo"
-                        class="h-10 saturate-0 contrast-200 invert-100"
-                    />
+                    <img src="/logo.png" alt="Proviser Logo" class="h-10" />
                 </a>
             </div>
 
@@ -23,7 +19,7 @@ import { SheetMenu } from "./sheet-menu";
                     <ul class="flex items-center gap-6 text-sm">
                         <li>
                             <a
-                                class="text-white transition font-medium hover:text-white/75"
+                                class="transition font-medium hover:text-blue-500/75"
                                 href="/#Sectores"
                             >
                                 Sectores
@@ -31,7 +27,7 @@ import { SheetMenu } from "./sheet-menu";
                         </li>
                         <li>
                             <a
-                                class="text-white transition font-medium hover:text-white/75"
+                                class="transition font-medium hover:text-blue-500/75"
                                 href="/#Servicios"
                             >
                                 Servicios y productos
@@ -40,7 +36,7 @@ import { SheetMenu } from "./sheet-menu";
 
                         <li>
                             <a
-                                class="text-white transition font-medium hover:text-white/75"
+                                class="transition font-medium hover:text-blue-500/75"
                                 href="/#Sobre-nosotros"
                             >
                                 Sobre nosotros
@@ -49,7 +45,7 @@ import { SheetMenu } from "./sheet-menu";
 
                         <li>
                             <a
-                                class="text-white transition font-medium hover:text-white/75"
+                                class="transition font-medium hover:text-blue-500/75"
                                 href="#"
                             >
                                 Productos
@@ -58,7 +54,7 @@ import { SheetMenu } from "./sheet-menu";
 
                         <li>
                             <a
-                                class="text-white transition font-medium hover:text-white/75"
+                                class="transition font-medium hover:text-blue-500/75"
                                 href="/#Testimonios"
                             >
                                 Testimonios
@@ -67,10 +63,18 @@ import { SheetMenu } from "./sheet-menu";
 
                         <li>
                             <a
-                                class="text-white transition font-medium hover:text-white/75"
+                                class="transition font-medium hover:text-blue-500/75"
                                 href="/#Contacto"
                             >
                                 Contacto
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="transition font-medium hover:text-blue-500/75"
+                                href="/#Blog"
+                            >
+                                Blog
                             </a>
                         </li>
                     </ul>
@@ -116,11 +120,12 @@ import { SheetMenu } from "./sheet-menu";
     }
 
     header {
-        @apply bg-blue-950/90;
+        @apply bg-blue-50/90 text-black;
     }
     @keyframes nav-shadown {
         0% {
             background-color: transparent;
+            color: white;
         }
         to {
             box-shadow:
