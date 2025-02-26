@@ -14,7 +14,7 @@ export function SheetMenu() {
     return (
         <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-                <Button variant="outline">
+                <Button variant="outline" className="text-black">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="size-5"
@@ -38,7 +38,7 @@ export function SheetMenu() {
                     </SheetDescription>
                 </SheetHeader>
                 <nav aria-label="Global">
-                    <ul className="flex flex-col items-start font-bold gap-6 text-xl">
+                    <ul className="flex flex-col items-start font-bold gap-6 text-xl px-2.5">
                         <li>
                             <a
                                 className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold"
