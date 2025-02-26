@@ -2,7 +2,7 @@
 title: "Proviser Industrial: Soluciones en Abastecimiento para Minería y Otras Industrias"
 description: "En la minería y la industria, contar con insumos de alta calidad es clave para garantizar eficiencia, seguridad y cumplimiento normativo. El abastecimiento confiable de equipos y herramientas es fundamental para mantener operaciones productivas y reducir tiempos de inactividad."
 pubDate: "Feb 26 2025"
-heroImage: "/blogs/Sin título-14.jpeg.jpg"
+heroImage: "/blogs/Sin título-13.jpeg.jpg"
 ---
 
 En la minería y la industria, contar con insumos de alta calidad es clave para garantizar eficiencia, seguridad y cumplimiento normativo. El abastecimiento confiable de equipos y herramientas es fundamental para mantener operaciones productivas y reducir tiempos de inactividad.
