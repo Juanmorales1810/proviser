@@ -2,7 +2,7 @@
 title: "Proviser: Abastecimiento y Soluciones Industriales para un Mantenimiento Eficiente"
 description: "El mantenimiento y abastecimiento industrial son pilares fundamentales para garantizar la eficiencia operativa en diversos sectores, desde la minería y la construcción hasta la administración de condominios y grandes infraestructuras."
 pubDate: "Feb 26 2025"
-heroImage: "/blogs/Sin título-13.jpeg.jpg"
+heroImage: "/blogs/Sin título-14.jpeg.jpg"
 ---
 
 El mantenimiento y abastecimiento industrial son pilares fundamentales para garantizar la eficiencia operativa en diversos sectores, desde la **minería** y la **construcción** hasta la **administración de condominios** y **grandes infraestructuras**.
