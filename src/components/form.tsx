@@ -86,10 +86,10 @@ export default function Form() {
                                 <SelectValue placeholder="Seleccione un producto o servicio" />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="producto1">Producto 1</SelectItem>
-                                <SelectItem value="producto2">Producto 2</SelectItem>
-                                <SelectItem value="servicio1">Servicio 1</SelectItem>
-                                <SelectItem value="servicio2">Servicio 2</SelectItem>
+                                <SelectItem value="mineria">Minería</SelectItem>
+                                <SelectItem value="construccion">Construcción</SelectItem>
+                                <SelectItem value="agricola">Agricola</SelectItem>
+                                <SelectItem value="otro">Otro</SelectItem>
                             </SelectContent>
                         </Select>
                     )}
