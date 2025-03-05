@@ -1,7 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import { SheetMenu } from "./sheet-menu";
-
-// Component logic here
+import logo from "@/assets/logo.png";
 ---
 
 <header class="fixed top-0 left-0 right-0 z-50">
@@ -10,7 +10,7 @@ import { SheetMenu } from "./sheet-menu";
             <div class="flex-1 md:flex md:items-center md:gap-12">
                 <a class="block text-white" href="/">
                     <span class="sr-only">Home</span>
-                    <img src="/logo.png" alt="Proviser Logo" class="h-10" />
+                    <Image src={logo} alt="Proviser Logo" class="h-10" />
                 </a>
             </div>
 
