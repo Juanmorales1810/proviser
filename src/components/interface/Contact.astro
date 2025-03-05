@@ -1,6 +1,9 @@
 ---
 import { MailCheck, MapPinCheck, Phone, PhoneCall } from "lucide-react";
 import Form from "../form";
+import { Image } from "astro:assets";
+import imgContact1 from "@/assets/Contact/Sin título-6.jpeg";
+import map from "@/assets/Contact/map.png";
 ---
 
 <section class="py-32" id="Contacto">
@@ -17,8 +20,8 @@ import Form from "../form";
             <div
                 class="relative flex flex-col justify-between gap-6 rounded-lg border group overflow-hidden"
             >
-                <img
-                    src="/Sin título-6.jpeg"
+                <Image
+                    src={imgContact1}
                     alt="placeholder"
                     class="h-full w-full rounded-lg object-cover object-center"
                 />
@@ -95,8 +98,8 @@ import Form from "../form";
                             <div
                                 class="relative flex h-full flex-col overflow-hidden rounded-t-lg md:max-h-[496px] md:rounded-lg"
                             >
-                                <img
-                                    src="/map.png"
+                                <Image
+                                    src={map}
                                     alt="placeholder"
                                     class="h-full w-full rounded-t-lg object-cover md:rounded-lg"
                                 />

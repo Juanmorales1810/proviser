@@ -1,5 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import { Image } from "astro:assets";
+import imgMineria from "@/assets/Sectores/Sin título-4.jpeg";
 ---
 
 <Layout
@@ -7,8 +9,8 @@ import Layout from "@/layouts/Layout.astro";
     description="Proviser Chile es una empresa de servicios de alimentación colectiva, concesiones y eventos en Chile."
 >
     <section class="container mx-auto px-4 py-16 bg-blue-900 rounded-b-2xl">
-        <img
-            src="/Sin título-4.jpeg"
+        <Image
+            src={imgMineria}
             alt="Insumos para Minería en Chile"
             class="w-full h-[512px] object-cover mb-6 rounded-lg shadow-lg"
         />

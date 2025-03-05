@@ -1,7 +1,9 @@
 ---
+import { Image } from "astro:assets";
 import { ChevronRight, HardHat, Pickaxe, Tractor } from "lucide-react";
-
-// Component logic here
+import imgMineria from "@/assets/Sectores/Sin título-4.jpeg";
+import imgConstruccion from "@/assets/Sectores/Sin título-2.jpeg";
+import imgAgricultura from "@/assets/Sectores/Sin título-9.jpeg";
 ---
 
 <section class="py-32" id="Sectores">
@@ -19,9 +21,9 @@ import { ChevronRight, HardHat, Pickaxe, Tractor } from "lucide-react";
                 href="/sectores/mineria"
                 class="group relative overflow-hidden rounded-xl"
             >
-                <img
-                    src="/Sin título-4.jpeg"
-                    alt="placeholder"
+                <Image
+                    src={imgMineria}
+                    alt="Minería"
                     class="h-[350px] w-full rounded-xl object-cover object-center"
                 />
                 <div
@@ -52,9 +54,9 @@ import { ChevronRight, HardHat, Pickaxe, Tractor } from "lucide-react";
                 href="/sectores/construccion"
                 class="group relative overflow-hidden rounded-xl"
             >
-                <img
-                    src="/Sin título-2.jpeg"
-                    alt="placeholder"
+                <Image
+                    src={imgConstruccion}
+                    alt="Construcción"
                     class="h-[350px] w-full rounded-xl object-cover object-center"
                 />
                 <div
@@ -89,8 +91,8 @@ import { ChevronRight, HardHat, Pickaxe, Tractor } from "lucide-react";
                 href="/sectores/agricultura"
                 class="group relative overflow-hidden rounded-xl"
             >
-                <img
-                    src="/Sin título-9.jpeg"
+                <Image
+                    src={imgAgricultura}
                     alt="Construcción"
                     class="h-[350px] w-full rounded-xl object-cover object-center"
                     transition:name="construction"

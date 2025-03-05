@@ -1,3 +1,9 @@
+---
+import { Image } from "astro:assets";
+import Blog1 from "@/assets/Blog/Sin título-13.jpg";
+import Blog2 from "@/assets/Blog/Sin título-14.jpg";
+---
+
 <section class="py-32" id="Blog">
     <div
         class="container mx-auto px-4 flex flex-col gap-8 lg:flex-row lg:gap-16"
@@ -9,10 +15,9 @@
             >
                 <div class="mb-4 flex overflow-clip rounded-xl md:mb-5">
                     <div class="transition duration-300 group-hover:scale-105">
-                        <img
-                            src="/blogs/Sin título-13.jpeg.jpg"
-                            alt="Sabores del Mar en Coquimbo: Platos Emblemáticos de
-                        Dominga Domínguez"
+                        <Image
+                            src={Blog1}
+                            alt="Proviser Industrial: Soluciones en Abastecimiento para Minería y Otras Industrias"
                             class="aspect-[3/2] h-full w-full object-cover object-center"
                             transition:name="imgsoluciones-en-abastecimiento"
                         />
@@ -85,9 +90,9 @@
             >
                 <div class="mb-4 flex overflow-clip rounded-xl md:mb-5">
                     <div class="transition duration-300 group-hover:scale-105">
-                        <img
-                            src="/blogs/Sin título-14.jpeg.jpg"
-                            alt="Sabores de Verano en La Serena y Coquimbo: Descubre los Platos Imperdibles de Dominga Domínguez"
+                        <Image
+                            src={Blog2}
+                            alt="Proviser: Abastecimiento y Soluciones Industriales para un Mantenimiento Eficiente"
                             class="aspect-[3/2] h-full w-full object-cover object-center"
                             transition:name="imgabastecimiento-y-soluciones-industriales"
                         />

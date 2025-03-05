@@ -1,10 +1,12 @@
 ---
+import { Image } from "astro:assets";
 import { Sparkle } from "lucide-react";
+import background from "@/assets/Testimonial/ttten.svg";
 ---
 
 <section class="relative py-32 overflow-hidden" id="Testimonios">
-    <img
-        src="/ttten.svg"
+    <Image
+        src={background}
         alt="Background"
         class="absolute -z-10 inset-0 h-full w-full object-cover opacity-40 [mask-image:radial-gradient(ellipse_100%_95%_at_50%_50%,#000_1%,transparent_60%)]"
     />
@@ -30,6 +32,7 @@ import { Sparkle } from "lucide-react";
                         ><img
                             class="aspect-square h-full w-full"
                             src="/avatar-1.webp"
+                            alt="Avatar 1"
                         />
                     </span>
                     <p class="text-center font-medium md:text-left">
@@ -48,6 +51,7 @@ import { Sparkle } from "lucide-react";
                         ><img
                             class="aspect-square h-full w-full"
                             src="/avatar-2.webp"
+                            alt="Avatar 2"
                         /></span
                     ><p class="text-center font-medium md:text-left">
                         Empresa Constructora.
