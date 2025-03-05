@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
     Sheet,
     SheetContent,
@@ -6,7 +6,7 @@ import {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-} from "@/components/ui/sheet"
+} from "@/components/ui/sheet";
 import { useState } from "react";
 
 export function SheetMenu() {
@@ -14,7 +14,11 @@ export function SheetMenu() {
     return (
         <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-                <Button variant="outline" className="text-black">
+                <Button
+                    aria-label="Menu"
+                    variant="outline"
+                    className="text-black"
+                >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="size-5"
@@ -26,16 +30,15 @@ export function SheetMenu() {
                         <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
+                            d="M4 6h16M4 12h16M4 18h16"
+                        ></path>
                     </svg>
                 </Button>
             </SheetTrigger>
             <SheetContent>
                 <SheetHeader>
                     <SheetTitle>Proviser - Chile</SheetTitle>
-                    <SheetDescription>
-
-                    </SheetDescription>
+                    <SheetDescription></SheetDescription>
                 </SheetHeader>
                 <nav aria-label="Global">
                     <ul className="flex flex-col items-start font-bold gap-6 text-xl px-2.5">
@@ -120,5 +123,5 @@ export function SheetMenu() {
                 </nav>
             </SheetContent>
         </Sheet>
-    )
+    );
 }
