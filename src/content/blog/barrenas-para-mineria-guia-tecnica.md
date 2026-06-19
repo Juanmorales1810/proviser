@@ -18,7 +18,7 @@ Cada hora sin perforación activa se traduce en:
 
 **El problema real no es encontrar barrenas. Es encontrar barrenas de calidad, en el momento que las necesitas, con alguien que entienda realmente de minería.**
 
-En PROVISER llevamos años trabajando con empresas mineras en La Serena, Copiapó, Antofagasta y Calama. Entendemos que **tu operación no puede detenerse.**
+En PROVISER llevamos años trabajando con empresas mineras en La Serena, Copiapó, Antofagasta y Calama. Entendemos que tu operación no puede detenerse.
 
 ---
 
@@ -68,7 +68,7 @@ Las barrenas de diamante son las más utilizadas en exploración minera moderna.
 - Perforaciones profundas
 - Muestreo de calidad en exploración
 
-Empresas mineras como GEODRILL, BOART LONGYEAR y MINERA ARQUEROS las utilizan porque garantizan testigos de calidad en formaciones complejas del Norte.
+Las barrenas de diamante garantizan testigos de calidad en formaciones complejas del Norte, especialmente en operaciones de exploración intensiva.
 
 ---
 
@@ -177,9 +177,7 @@ Costo por metro = Precio barrena / Metros totales perforados
 
 ## Barrenas para minería del Norte: ¿Dónde obtenerlas con garantía?
 
-En PROVISER entendemos que en minería no hay lugar para demoras.
-
-Trabajamos con ENAMI, BOART LONGYEAR, GEODRILL, MINERA ARQUEROS y MINERA DELIRIO porque ofrecemos:
+En PROVISER entendemos que en minería no hay lugar para demoras. Ofrecemos:
 
 - ✓ **Stock disponible** en La Serena, Copiapó, Antofagasta e Iquique
 - ✓ **Entrega rápida** – Tu operación no espera
@@ -213,21 +211,21 @@ Cuando tu faena necesita barrenas **hoy**, no mañana, PROVISER es tu respuesta.
 
 ---
 
-## Casos de éxito: Empresas mineras del Norte que optimizaron con barrenas correctas
+## Resultados medibles: Operaciones que optimizaron con barrenas correctas
 
-### MINERA ARQUEROS – Copiapó
+### Optimización de costos operacionales
 
-**Desafío:** Altos costos por metro y baja calidad de testigos  
-**Solución:** Barrenas de diamante con asesoría técnica personalizada  
-**Resultado:** Reducción del 35% en costo por metro, aumento del 40% en metros perforados por mes  
-**Impacto:** Mejor calidad de testigos para toma de decisiones
+- Reducción del 35% en costo por metro
+- Aumento del 40% en metros perforados por mes
+- Mejor calidad de testigos para toma de decisiones
+- Solución: Barrenas de diamante con asesoría técnica personalizada
 
-### GEODRILL – Región de Coquimbo
+### Continuidad operacional garantizada
 
-**Desafío:** Paradas no planificadas por falta de stock  
-**Solución:** Programa de abastecimiento continuo con PROVISER  
-**Resultado:** Eliminación de paradas no planificadas, respuesta técnica en 2 horas máximo  
-**Impacto:** Stock permanente de barrenas disponibles en faena
+- Eliminación de paradas no planificadas
+- Respuesta técnica en máximo 2 horas
+- Stock permanente de barrenas disponibles
+- Solución: Programa de abastecimiento continuo con PROVISER
 
 ---
 
@@ -249,24 +247,10 @@ En lugar seco, protegido de humedad, sobre superficies que no dañen los inserto
 
 ## Conclusión: Tu aliado en minería del Norte
 
-Elegir las barrenas correctas es elegir **continuidad operacional**.
+Elegir las barrenas correctas es elegir continuidad operacional.
 
 No se trata de comprar barrenas. Se trata de garantizar que tu faena siga adelante.
 
 En PROVISER somos especialistas en abastecimiento industrial para minería en el Norte de Chile. Entendemos tu operación porque trabajamos con las empresas mineras más importantes de La Serena, Copiapó, Antofagasta y Calama.
 
 **Tu operación no puede detenerse. Nosotros tampoco.**
-
----
-
-## Cotiza barrenas con Proviser
-
-¿Necesitas barrenas de calidad con respuesta rápida? Contacta a nuestro equipo especializado.
-
-**Disponible en:** La Serena / Copiapó · Antofagasta · Calama · Iquique
-
-**Contáctanos:**
-
-- WhatsApp: [Tu número]
-- Email: [Tu correo]
-- Teléfono: [Tu teléfono]

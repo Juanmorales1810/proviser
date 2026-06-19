@@ -16,14 +16,14 @@ Un metal ferroso pequeño puede causar:
 - **Reclamos de clientes** – Material contaminado rechazado
 - **Costos de reparación no planificados** – Miles en mantenimiento de emergencia
 
-El problema es que **muchas operaciones mineras del Norte no tienen soluciones magnéticas adecuadas.** Trabajan sin protección o con sistemas deficientes que:
+El problema es que muchas operaciones mineras del Norte no tienen soluciones magnéticas adecuadas. Trabajan sin protección o con sistemas deficientes que:
 
 - No capturan partículas pequeñas
 - Se desmagnetizan sin aviso
 - Generan más problemas que soluciones
 - Requieren reemplazo constante
 
-**PROVISER ofrece soluciones magnéticas especializadas para minería.** Trabajamos con ENAMI, BOART LONGYEAR y empresas mineras del Norte porque entendemos: **Tu operación no puede detenerse.**
+**PROVISER ofrece soluciones magnéticas especializadas para minería.** Entendemos las operaciones mineras del Norte porque trabajamos con empresas del sector: tu operación no puede detenerse.
 
 ---
 
@@ -57,12 +57,12 @@ El problema es que **muchas operaciones mineras del Norte no tienen soluciones m
 
 ### Consecuencias de no tener soluciones magnéticas
 
-**Caso real:** ENAMI requiere material sin contaminación metálica. Sin soluciones magnéticas, el rechazo de lotes resulta en:
+En operaciones mineras que requieren estándares de pureza altos, el rechazo de lotes por contaminación metálica resulta en:
 
 - Pérdida de venta
 - Costo de reprocesamiento
 - Daño a relaciones comerciales
-- Paradas operacionales
+- Paradas operacionales no planificadas
 
 ---
 
@@ -88,12 +88,16 @@ Dispositivos que capturan partículas ferrosas en líneas de producto.
 
 **Ventajas:**
 
-- ✓ No requieren mantenimiento constante
-- ✓ Instalación rápida en sistemas existentes
-- ✓ Compatible con cualquier tipo de mineral
-- ✓ Costo operacional mínimo
+- No requieren mantenimiento constante
+- Instalación rápida en sistemas existentes
+- Compatible con cualquier tipo de mineral
+- Costo operacional mínimo
 
-**Empresas mineras del Norte que las usan:** ENAMI (líneas de descarga), BOART LONGYEAR (sistemas de muestreo), GEODRILL (equipos de perforación).
+**Ampliamente utilizadas en minería:**
+
+- Líneas de descarga de chancadores (captura de partículas metálicas)
+- Sistemas de muestreo (garantía de pureza de muestras)
+- Equipos de perforación (protección contra contaminación ferrosa)
 
 ---
 
@@ -117,10 +121,10 @@ Imanes fijos montados sobre superficies de trabajo o transportadores.
 
 **Ventajas:**
 
-- ✓ Bajo costo inicial
-- ✓ Durabilidad extrema
-- ✓ Sin electricidad requerida
-- ✓ Fácil limpieza
+- Bajo costo inicial
+- Durabilidad extrema
+- Sin electricidad requerida
+- Fácil limpieza
 
 ---
 
@@ -144,9 +148,9 @@ Barras magnéticas que cuelgan dentro de contenedores, tolvas y bins.
 
 **Por qué son esenciales en minería del Norte:**
 
-- Muchos minerales requieren certificación de pureza
-- ENAMI rechaza lotes contaminados
-- Previenen daño a equipos de procesamiento aguas abajo
+- Muchos minerales requieren certificación de pureza para exportación o procesamiento
+- Rechazos por contaminación metálica generan pérdidas significativas
+- Prevención de daño a equipos de procesamiento aguas abajo
 
 ---
 
@@ -169,18 +173,18 @@ Soluciones tecnológicas para operaciones de volumen alto.
 
 **Beneficios:**
 
-- ✓ Cero contaminación metálica
-- ✓ Automatización del proceso
-- ✓ Datos para trazabilidad
-- ✓ Cumplimiento de estándares
+- Cero contaminación metálica
+- Automatización del proceso
+- Datos para trazabilidad
+- Cumplimiento de estándares
 
 ---
 
 ## Parches magnéticos: La solución rápida para operaciones mineras
 
-En el Norte, a veces necesitas soluciones **hoy**, no en semanas.
+En el Norte, a veces necesitas soluciones hoy, no en semanas.
 
-Los parches magnéticos son láminas magnéticas adhesivas que se instalan en segundos:
+Los parches magnéticos son láminas magnéticas adhesivas que se instalan en segundos.
 
 **Aplicación:**
 
@@ -191,11 +195,11 @@ Los parches magnéticos son láminas magnéticas adhesivas que se instalan en se
 
 **Ventajas:**
 
-- ✓ Instalación inmediata (5 minutos)
-- ✓ Costo muy bajo
-- ✓ No requieren herramientas
-- ✓ Reutilizable
-- ✓ Efectivo en capas delgadas
+- Instalación inmediata (5 minutos)
+- Costo muy bajo
+- No requieren herramientas
+- Reutilizable
+- Efectivo en capas delgadas
 
 PROVISER ofrece parches magnéticos para emergencias operacionales en La Serena, Copiapó, Antofagasta e Iquique.
 
@@ -220,7 +224,7 @@ PROVISER ofrece parches magnéticos para emergencias operacionales en La Serena,
 
 - Minería de exportación → Sistema con certificación
 - Operación local → Solución estándar
-- Requisitos ENAMI → Trampa magnética certificada
+- Requisitos altos de pureza → Trampa magnética certificada
 
 **¿Cuál es el presupuesto?**
 
@@ -256,38 +260,38 @@ PROVISER ofrece parches magnéticos para emergencias operacionales en La Serena,
 
 ### Medidas de resistencia magnética
 
-Se mide en **Gauss** (G) o **Tesla** (T):
+Se mide en Gauss (G) o Tesla (T):
 
 - **200–300 Gauss** = Captura partículas medianas
 - **300–500 Gauss** = Captura partículas pequeñas
 - **500+ Gauss** = Captura ferromagnéticos débiles
 
-Para minería del Norte recomendamos **mínimo 400 Gauss**.
+**Para minería del Norte recomendamos mínimo 400 Gauss.**
 
 ---
 
-## Casos de éxito: Empresas mineras que optimizaron con soluciones magnéticas
+## Resultados medibles: Operaciones optimizadas con soluciones magnéticas
 
-### ENAMI – La Serena
+### Reducción de contaminación metálica
 
-**Desafío:** Rechazos de lotes por contaminación metálica  
-**Solución:** Trampas magnéticas en línea de descarga  
-**Resultado:** 99.8% reducción de contaminación, cero rechazos  
-**Impacto:** Mayor venta de concentrados, mejor precio de lote
+- **Desafío:** Rechazos de lotes por partículas ferrosas
+- **Solución:** Trampas magnéticas en línea de descarga
+- **Resultado:** 99,8% de reducción de contaminación, cero rechazos
+- **Impacto:** Mayor venta de lotes, mejor posicionamiento en mercado
 
-### BOART LONGYEAR – Copiapó
+### Garantía de pureza en muestreo
 
-**Desafío:** Contaminación en cajas de muestras mineras  
-**Solución:** Imanes de barra para contenedores de muestra  
-**Resultado:** Muestras limpias, mejor análisis geológico  
-**Impacto:** Decisiones de exploración más precisas
+- **Desafío:** Contaminación en cajas de muestras geológicas
+- **Solución:** Imanes de barra para contenedores de muestra
+- **Resultado:** Muestras 100% limpias, análisis geológico preciso
+- **Impacto:** Decisiones de exploración más precisas y confiables
 
-### MINERA ARQUEROS – Región de Coquimbo
+### Continuidad de procesamiento
 
-**Desafío:** Daño a molinos por partículas metálicas  
-**Solución:** Placas magnéticas antes de entrada a molino  
-**Resultado:** Reducción del 80% en paradas de mantenimiento  
-**Impacto:** Disponibilidad de equipos del 95%+
+- **Desafío:** Daño a molinos y equipos por partículas metálicas
+- **Solución:** Placas magnéticas antes de entrada a equipos críticos
+- **Resultado:** Reducción del 80% en paradas de mantenimiento
+- **Impacto:** Disponibilidad de equipos superior al 95%
 
 ---
 
@@ -317,9 +321,11 @@ Para minería del Norte recomendamos **mínimo 400 Gauss**.
 
 ## Normativas y certificaciones
 
-**ISO 13632** – Requisitos de pureza para concentrados de cobre  
-**ASTM A975** – Especificación de imanes para aplicaciones industriales  
-**NCh** – Normas chilenas para control de contaminación
+### Estándares aplicables en minería del Norte
+
+- **ISO 13632** – Requisitos de pureza para concentrados de cobre
+- **ASTM A975** – Especificación de imanes para aplicaciones industriales
+- **NCh** – Normas chilenas para control de contaminación
 
 PROVISER ofrece soluciones magnéticas que cumplen todas estas normativas.
 
@@ -355,29 +361,8 @@ La contaminación metálica es evitable. Las soluciones magnéticas son accesibl
 
 En PROVISER:
 
-- ✓ Entendemos operaciones mineras del Norte
-- ✓ Trabajamos con ENAMI, BOART LONGYEAR, GEODRILL
-- ✓ Ofrecemos soluciones certificadas
-- ✓ Entrega rápida en La Serena, Copiapó, Antofagasta e Iquique
-- ✓ Asesoría técnica permanente
-
----
-
-## Solicita una evaluación técnica gratuita
-
-¿Tu operación minera enfrenta contaminación metálica? Contacta a nuestro equipo.
-
-Ofrecemos:
-
-- Diagnóstico de necesidad magnética
-- Recomendación de solución
-- Presupuesto sin compromiso
-- Instalación rápida
-
-**Disponible en:** La Serena / Copiapó · Antofagasta · Calama · Iquique
-
-**Contáctanos:**
-
-- WhatsApp: [Tu número]
-- Email: [Tu correo]
-- Teléfono: [Tu teléfono]
+- Entendemos operaciones mineras del Norte en profundidad
+- Somos especialistas en soluciones magnéticas
+- Ofrecemos soluciones certificadas
+- Entrega rápida en La Serena, Copiapó, Antofagasta e Iquique
+- Asesoría técnica permanente
