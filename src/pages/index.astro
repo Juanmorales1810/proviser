@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Service from "../components/interface/Service.astro";
 import Contact from "../components/interface/Contact.astro";
 import Providers from "@/components/interface/Providers";
-import Hero from "../components/interface/Hero.astro";
+import PromoSlider from "@/components/interface/PromoSlider";
 import WhyUs from "@/components/interface/WhyUs.astro";
 import Testimonial from "@/components/interface/Testimonial.astro";
 import Sectores from "@/components/interface/Sectores.astro";
@@ -14,8 +14,13 @@ import Blog from "@/components/interface/Blog.astro";
     title="Proviser Chile | Abastecimiento Industrial"
     description="Proviser Chile es una empresa de servicios de alimentación colectiva, concesiones y eventos en Chile."
 >
-    <Hero />
+    <h1 class="sr-only">
+        Proviser Chile: Soluciones Industriales y Logística Eficiente en La
+        Serena y Coquimbo
+    </h1>
+    <PromoSlider variant="hero" client:load />
     <Sectores />
+    <PromoSlider variant="banner" client:visible />
     <Service />
     <WhyUs />
     <Testimonial />

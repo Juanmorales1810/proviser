@@ -1,5 +1,83 @@
 ---
-
+const posts = [
+    {
+        slug: "epp-seguridad-industrial-norte-de-chile",
+        img: "/web/banner-1-epp.webp",
+        tag: "Seguridad Industrial",
+        read: "7 min de lectura",
+        title: "EPP para faenas del Norte de Chile: cómo elegir la protección correcta según cada riesgo",
+        excerpt:
+            "Guía para elegir EPP según el riesgo real de tu faena en el Norte de Chile: cascos, lentes, guantes, calzado y protección UV.",
+        avatar: "avatar-3",
+        date: "7 Oct 2026",
+    },
+    {
+        slug: "pernos-anclajes-fijaciones-industriales",
+        img: "/web/slider-3-stock-listo.webp",
+        tag: "Ferretería Técnica",
+        read: "7 min de lectura",
+        title: "Pernos, anclajes y fijaciones industriales: cómo elegir bien en minería y construcción",
+        excerpt:
+            "Grados de resistencia, recubrimientos y ambiente costero: criterios para elegir pernos, anclajes y fijaciones en el Norte de Chile.",
+        avatar: "avatar-3",
+        date: "7 Oct 2026",
+    },
+    {
+        slug: "temporada-riego-region-de-coquimbo",
+        img: "/web/banner-2-riego.webp",
+        tag: "Riego y Agricultura",
+        read: "7 min de lectura",
+        title: "Temporada de riego en la Región de Coquimbo: cómo preparar tu sistema antes del verano",
+        excerpt:
+            "Checklist para llegar al verano con el riego asegurado: bombas, tuberías HDPE, fittings, válvulas solenoides, filtros y fertirriego.",
+        avatar: "avatar-3",
+        date: "7 Oct 2026",
+    },
+    {
+        slug: "soluciones-en-abastecimiento",
+        img: "/blogs/Sin-título-13.jpg",
+        tag: "Industrial",
+        read: "7 min de lectura",
+        title: "Proviser Industrial: Soluciones en Abastecimiento para Minería y Otras Industrias",
+        excerpt:
+            "En la minería y la industria, contar con insumos de alta calidad es clave para garantizar eficiencia, seguridad y cumplimiento normativo. El abastecimiento confiable de equipos y herramientas es fundamental para mantener operaciones productivas y reducir tiempos de inactividad.",
+        avatar: "avatar-1",
+        date: "26 Feb 2025",
+    },
+    {
+        slug: "abastecimiento-y-soluciones-industriales",
+        img: "/blogs/Sin-título-14.jpg",
+        tag: "Industrial",
+        read: "5 min de lectura",
+        title: "Proviser: Abastecimiento y Soluciones Industriales para un Mantenimiento Eficiente",
+        excerpt:
+            "El mantenimiento y abastecimiento industrial son pilares fundamentales para garantizar la eficiencia operativa en diversos sectores, desde la minería y la construcción hasta la administración de condominios y grandes infraestructuras. Contar con insumos de calidad, equipos de seguridad, herramientas especializadas y sistemas de gestión optimizados permite reducir costos, evitar fallas y prolongar la vida útil de cada instalación.",
+        avatar: "avatar-1",
+        date: "26 Feb 2025",
+    },
+    {
+        slug: "barrenas-para-mineria-guia-tecnica",
+        img: "/blogs/minera-blog.jpg",
+        tag: "Minería",
+        read: "5 min de lectura",
+        title: "Barrenas para Minería: Guía Técnica para Empresas del Norte de Chile",
+        excerpt:
+            "Conoce los tipos de barrenas mineras, cómo elegir las correctas y dónde obtener soluciones rápidas en La Serena, Coquimbo, Copiapó y Antofagasta.",
+        avatar: "avatar-3",
+        date: "15 Jun 2026",
+    },
+    {
+        slug: "soluciones-magneticas-mineria",
+        img: "/blogs/pexels-tomfisk-12247591.jpg",
+        tag: "Minería",
+        read: "7 min de lectura",
+        title: "Soluciones Magnéticas para Minería: Cómo Proteger tu Operación del Daño Metálico",
+        excerpt:
+            "Trampas magnéticas, imanes industriales y soluciones magnéticas especializadas para minería en el Norte de Chile. Prevención de contaminación metálica en ENAMI, BOART LONGYEAR y operaciones mineras.",
+        avatar: "avatar-3",
+        date: "15 Jun 2026",
+    },
+];
 ---
 
 <section class="py-32" id="Blog">
@@ -7,299 +85,67 @@
         class="container mx-auto px-4 flex flex-col gap-8 lg:flex-row lg:gap-16"
     >
         <div class="grid gap-x-4 gap-y-8 md:grid-cols-2 lg:gap-x-6 lg:gap-y-12">
-            <a
-                href="/blog/soluciones-en-abastecimiento"
-                class="group flex flex-col"
-            >
-                <div class="mb-4 flex overflow-clip rounded-xl md:mb-5">
-                    <div class="transition duration-300 group-hover:scale-105">
-                        <img
-                            src="/blogs/Sin-título-13.jpg"
-                            alt="Proviser Industrial: Soluciones en Abastecimiento para Minería y Otras Industrias"
-                            class="aspect-[3/2] h-full w-full object-cover object-center"
-                            transition:name="imgsoluciones-en-abastecimiento"
-                        />
-                    </div>
-                </div>
-                <div
-                    class="flex w-fit items-center rounded-full border border-border p-1"
-                >
-                    <div
-                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
-                    >
-                        Insudtrial
-                    </div>
-                    <div class="mx-2 text-xs font-medium">7 min de lectura</div>
-                </div>
-                <div
-                    class="mb-2 flex items-start gap-4 pt-4 md:mb-3 md:pt-4 lg:pt-4"
-                >
-                    <span
-                        class="line-clamp-3 flex-1 break-words text-lg font-medium md:text-2xl lg:text-2xl xl:text-3xl"
-                    >
-                        Proviser Industrial: Soluciones en Abastecimiento para
-                        Minería y Otras Industrias
-                    </span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-arrow-up-right size-6 shrink-0"
-                    >
-                        <path d="M7 7h10v10"></path>
-                        <path d="M7 17 17 7"></path>
-                    </svg>
-                </div>
-                <div
-                    class="mb-4 line-clamp-2 text-sm text-muted-foreground md:mb-5 md:text-base"
-                >
-                    En la minería y la industria, contar con insumos de alta
-                    calidad es clave para garantizar eficiencia, seguridad y
-                    cumplimiento normativo. El abastecimiento confiable de
-                    equipos y herramientas es fundamental para mantener
-                    operaciones productivas y reducir tiempos de inactividad.
-                </div>
-                <div class="flex items-center gap-2">
-                    <span
-                        class="relative flex shrink-0 overflow-hidden rounded-full size-12"
-                    >
-                        <img
-                            class="aspect-square h-full w-full"
-                            alt="Avatar de usuario"
-                            src="https://shadcnblocks.com/images/block/avatar-1.webp"
-                        />
-                    </span>
-                    <div class="flex flex-col gap-px">
-                        <span class="text-xs text-muted-foreground">
-                            26 Feb 2025
-                        </span>
-                    </div>
-                </div>
-            </a>
-            <a
-                href="/blog/abastecimiento-y-soluciones-industriales"
-                class="group flex flex-col"
-            >
-                <div class="mb-4 flex overflow-clip rounded-xl md:mb-5">
-                    <div class="transition duration-300 group-hover:scale-105">
-                        <img
-                            src="/blogs/Sin-título-14.jpg"
-                            alt="Proviser: Abastecimiento y Soluciones Industriales para un Mantenimiento Eficiente"
-                            class="aspect-[3/2] h-full w-full object-cover object-center"
-                            transition:name="imgabastecimiento-y-soluciones-industriales"
-                        />
-                    </div>
-                </div>
-                <div
-                    class="flex w-fit items-center rounded-full border border-border p-1"
-                >
-                    <div
-                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
-                    >
-                        Industrial
-                    </div>
-                    <div class="mx-2 text-xs font-medium">5 min de lectura</div>
-                </div>
-                <div
-                    class="mb-2 flex items-start gap-4 pt-4 md:mb-3 md:pt-4 lg:pt-4"
-                >
-                    <span
-                        class="line-clamp-3 flex-1 break-words text-lg font-medium md:text-2xl lg:text-2xl xl:text-3xl"
-                    >
-                        Proviser: Abastecimiento y Soluciones Industriales para
-                        un Mantenimiento Eficiente
-                    </span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-arrow-up-right size-6 shrink-0"
-                    >
-                        <path d="M7 7h10v10"></path>
-                        <path d="M7 17 17 7"></path>
-                    </svg>
-                </div>
-                <div
-                    class="mb-4 line-clamp-2 text-sm text-muted-foreground md:mb-5 md:text-base"
-                >
-                    El mantenimiento y abastecimiento industrial son pilares
-                    fundamentales para garantizar la eficiencia operativa en
-                    diversos sectores, desde la minería y la construcción hasta
-                    la administración de condominios y grandes infraestructuras.
-                    Contar con insumos de calidad, equipos de seguridad,
-                    herramientas especializadas y sistemas de gestión
-                    optimizados permite reducir costos, evitar fallas y
-                    prolongar la vida útil de cada instalación.
-                </div>
-                <div class="flex items-center gap-2">
-                    <span
-                        class="relative flex shrink-0 overflow-hidden rounded-full size-12"
-                    >
-                        <img
-                            class="aspect-square h-full w-full"
-                            alt="Avatar de usuario"
-                            src="https://shadcnblocks.com/images/block/avatar-1.webp"
-                        />
-                    </span>
-                    <div class="flex flex-col gap-px">
-                        <span class="text-xs text-muted-foreground">
-                            26 Feb 2025
-                        </span>
-                    </div>
-                </div>
-            </a>
-            <a
-                href="/blog/barrenas-para-mineria-guia-tecnica"
-                class="group flex flex-col"
-            >
-                <div class="mb-4 flex overflow-clip rounded-xl md:mb-5">
-                    <div class="transition duration-300 group-hover:scale-105">
-                        <img
-                            src="/blogs/minera-blog.jpg"
-                            alt="Proviser: Abastecimiento y Soluciones Industriales para un Mantenimiento Eficiente"
-                            class="aspect-[3/2] h-full w-full object-cover object-center"
-                            transition:name="imgbarrenas-para-mineria-guia-tecnica"
-                        />
-                    </div>
-                </div>
-                <div
-                    class="flex w-fit items-center rounded-full border border-border p-1"
-                >
-                    <div
-                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
-                    >
-                        Minería
-                    </div>
-                    <div class="mx-2 text-xs font-medium">5 min de lectura</div>
-                </div>
-                <div
-                    class="mb-2 flex items-start gap-4 pt-4 md:mb-3 md:pt-4 lg:pt-4"
-                >
-                    <span
-                        class="line-clamp-3 flex-1 break-words text-lg font-medium md:text-2xl lg:text-2xl xl:text-3xl"
-                    >
-                        Barrenas para Minería: Guía Técnica para Empresas del Norte de Chile
-                    </span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-arrow-up-right size-6 shrink-0"
-                    >
-                        <path d="M7 7h10v10"></path>
-                        <path d="M7 17 17 7"></path>
-                    </svg>
-                </div>
-                <div
-                    class="mb-4 line-clamp-2 text-sm text-muted-foreground md:mb-5 md:text-base"
-                >
-                    Conoce los tipos de barrenas mineras, cómo elegir las correctas y dónde obtener soluciones rápidas en La Serena, Coquimbo, Copiapó y Antofagasta.
-                </div>
-                <div class="flex items-center gap-2">
-                    <span
-                        class="relative flex shrink-0 overflow-hidden rounded-full size-12"
-                    >
-                        <img
-                            class="aspect-square h-full w-full"
-                            alt="Avatar de usuario"
-                            src="https://shadcnblocks.com/images/block/avatar-3.webp"
-                        />
-                    </span>
-                    <div class="flex flex-col gap-px">
-                        <span class="text-xs text-muted-foreground">
-                            15 Jun 2026
-                        </span>
-                    </div>
-                </div>
-            </a>
-            <a
-                href="/blog/soluciones-magneticas-mineria"
-                class="group flex flex-col"
-            >
-                <div class="mb-4 flex overflow-clip rounded-xl md:mb-5">
-                    <div class="transition duration-300 group-hover:scale-105">
-                        <img
-                            src="/blogs/pexels-tomfisk-12247591.jpg"
-                            alt="Proviser: Abastecimiento y Soluciones Industriales para un Mantenimiento Eficiente"
-                            class="aspect-[3/2] h-full w-full object-cover object-center"
-                            transition:name="imgsoluciones-magneticas-mineria"
-                        />
-                    </div>
-                </div>
-                <div
-                    class="flex w-fit items-center rounded-full border border-border p-1"
-                >
-                    <div
-                        class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
-                    >
-                        Minería
-                    </div>
-                    <div class="mx-2 text-xs font-medium">7 min de lectura</div>
-                </div>
-                <div
-                    class="mb-2 flex items-start gap-4 pt-4 md:mb-3 md:pt-4 lg:pt-4"
-                >
-                    <span
-                        class="line-clamp-3 flex-1 break-words text-lg font-medium md:text-2xl lg:text-2xl xl:text-3xl"
-                    >
-                        Soluciones Magnéticas para Minería: Cómo Proteger tu Operación del Daño Metálico
-                    </span>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-arrow-up-right size-6 shrink-0"
-                    >
-                        <path d="M7 7h10v10"></path>
-                        <path d="M7 17 17 7"></path>
-                    </svg>
-                </div>
-                <div
-                    class="mb-4 line-clamp-2 text-sm text-muted-foreground md:mb-5 md:text-base"
-                >
-                    Trampas magnéticas, imanes industriales y soluciones magnéticas especializadas para minería en el Norte de Chile. Prevención de contaminación metálica en ENAMI, BOART LONGYEAR y operaciones mineras.
-                </div>
-                <div class="flex items-center gap-2">
-                    <span
-                        class="relative flex shrink-0 overflow-hidden rounded-full size-12"
-                    >
-                        <img
-                            class="aspect-square h-full w-full"
-                            alt="Avatar de usuario"
-                            src="https://shadcnblocks.com/images/block/avatar-3.webp"
-                        />
-                    </span>
-                    <div class="flex flex-col gap-px">
-                        <span class="text-xs text-muted-foreground">
-                            15 Jun 2026
-                        </span>
-                    </div>
-                </div>
-            </a>
+            {
+                posts.map((post) => (
+                    <a href={`/blog/${post.slug}`} class="group flex flex-col">
+                        <div class="mb-4 flex overflow-clip rounded-xl md:mb-5">
+                            <div class="transition duration-300 group-hover:scale-105">
+                                <img
+                                    src={post.img}
+                                    alt={post.title}
+                                    class="aspect-[3/2] h-full w-full object-cover object-center"
+                                    transition:name={`img${post.slug}`}
+                                />
+                            </div>
+                        </div>
+                        <div class="flex w-fit items-center rounded-full border border-border p-1">
+                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80">
+                                {post.tag}
+                            </div>
+                            <div class="mx-2 text-xs font-medium">
+                                {post.read}
+                            </div>
+                        </div>
+                        <div class="mb-2 flex items-start gap-4 pt-4 md:mb-3 md:pt-4 lg:pt-4">
+                            <span class="line-clamp-3 flex-1 break-words text-lg font-medium md:text-2xl lg:text-2xl xl:text-3xl">
+                                {post.title}
+                            </span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-arrow-up-right size-6 shrink-0"
+                            >
+                                <path d="M7 7h10v10" />
+                                <path d="M7 17 17 7" />
+                            </svg>
+                        </div>
+                        <div class="mb-4 line-clamp-2 text-sm text-muted-foreground md:mb-5 md:text-base">
+                            {post.excerpt}
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="relative flex shrink-0 overflow-hidden rounded-full size-12">
+                                <img
+                                    class="aspect-square h-full w-full"
+                                    alt="Avatar de usuario"
+                                    src={`https://shadcnblocks.com/images/block/${post.avatar}.webp`}
+                                />
+                            </span>
+                            <div class="flex flex-col gap-px">
+                                <span class="text-xs text-muted-foreground">
+                                    {post.date}
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                ))
+            }
         </div>
     </div>
 </section>
